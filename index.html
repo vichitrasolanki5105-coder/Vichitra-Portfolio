@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vichitra Solanki | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Vichitra Solanki<span class="logo-bracket"> /&gt;</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link active">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#resume"   class="nav-link">Resume</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+
+    <div class="hero-container">
+      <div class="hero-text fade-in">
+        <span class="greeting"><span class="wave">👋</span> Hello!</span>
+        <h1 class="hero-title">I'm <span class="highlight">Vichitra Solanki</span></h1>
+        <div class="hero-typed">
+          <span id="typedText"></span><span class="cursor-blink">|</span>
+        </div>
+        <p class="hero-desc">
+          B.Tech 2nd year student passionate about <strong>Data Science</strong>,
+          <strong>DSA</strong>, and <strong>Web Development</strong> — turning data
+          into insights and ideas into code.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+          <a href="#contact"  class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="snum">2+</span><span class="slbl">Projects</span></div>
+          <div class="sdiv"></div>
+          <div class="stat"><span class="snum">5+</span><span class="slbl">Skills</span></div>
+          <div class="sdiv"></div>
+          <div class="stat"><span class="snum">2nd</span><span class="slbl">Year</span></div>
+        </div>
+      </div>
+
+      <div class="hero-img-area fade-in-right">
+        <div class="profile-ring-outer"></div>
+        <div class="profile-ring-inner"></div>
+        <img src="profile photo\profile photo.jpeg" alt="Profile Picture">
+        <div class="float-badge badge-ds"><i class="fas fa-chart-bar"></i> Data Science</div>
+        <div class="float-badge badge-code"><i class="fas fa-code"></i> DSA Expert</div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down-arrow">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="sec-head fade-up">
+        <span class="sec-tag">Who I Am</span>
+        <h2 class="sec-title">About <span class="highlight">Me</span></h2>
+        <p class="sec-sub">A passionate learner on a mission to decode data</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio fade-up">
+          <p>Hi! I'm <strong>Vichitra Solanki</strong>, a 2nd-year B.Tech Computer Science student specializing in the <strong>Data Science</strong> track. I love exploring patterns in data, solving algorithmic puzzles, and building projects that create real impact.</p>
+          <p>My journey started with competitive programming, which deepened my love for problem-solving. Now I combine that analytical mindset with machine learning and data visualization to create meaningful solutions.</p>
+          <p>When I'm not coding, you'll find me reading tech blogs, exploring new datasets, or brainstorming the next big project idea.</p>
+          <ul class="bio-details">
+            <li><i class="fas fa-graduation-cap"></i><span><strong>Education:</strong> B.Tech — Computer Science (2nd Year)</span></li>
+            <li><i class="fas fa-layer-group"></i><span><strong>Track:</strong> Data Science</span></li>
+            <li><i class="fas fa-lightbulb"></i><span><strong>Interests:</strong> Data Science, ML, Problem Solving</span></li>
+            <li><i class="fas fa-circle-check"></i><span><strong>Status:</strong> Open to Internships &amp; Collaborations</span></li>
+          </ul>
+          <a href="#resume" class="btn btn-primary" style="margin-top:1.5rem;display:inline-flex;">
+            <i class="fas fa-file-alt"></i> View Resume
+          </a>
+        </div>
+
+        <div class="about-skills fade-up">
+          <h3 class="skills-heading">Technical Skills</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="sk-row"><span><i class="fab fa-java"></i> Java</span><span>78%</span></div>
+              <div class="sk-bar"><div class="sk-fill" data-w="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="sk-row"><span><i class="fab fa-python"></i> Python</span><span>82%</span></div>
+              <div class="sk-bar"><div class="sk-fill" data-w="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="sk-row"><span><i class="fas fa-sitemap"></i> Data Structures &amp; Algorithms</span><span>75%</span></div>
+              <div class="sk-bar"><div class="sk-fill" data-w="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="sk-row"><span><i class="fas fa-database"></i> SQL</span><span>70%</span></div>
+              <div class="sk-bar"><div class="sk-fill" data-w="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="sk-row"><span><i class="fas fa-chart-pie"></i> Data Visualization</span><span>68%</span></div>
+              <div class="sk-bar"><div class="sk-fill" data-w="68"></div></div>
+            </div>
+          </div>
+          <div class="tech-tags">
+            <span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+            <span>Seaborn</span><span>Scikit-learn</span><span>HTML/CSS</span>
+            <span>Git</span><span>Jupyter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section class="section section-alt" id="resume">
+    <div class="container">
+      <div class="sec-head fade-up">
+        <span class="sec-tag">My Journey</span>
+        <h2 class="sec-title">Resume</h2>
+        <p class="sec-sub">Education, experience &amp; milestones</p>
+      </div>
+
+      <div class="resume-grid">
+        <div class="resume-col fade-up">
+          <div class="rcol-head"><i class="fas fa-graduation-cap"></i><h3>Education</h3></div>
+          <div class="timeline">
+            <div class="tl-item active-tl">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-year">2024 – Present</span>
+                <h4>B.Tech — Computer Science</h4>
+                <p class="tl-org">University (Data Science Track)</p>
+                <p class="tl-desc">Pursuing core CS subjects alongside specialized Data Science coursework including Machine Learning, Statistics, DBMS, and Algorithm Design.</p>
+                <div class="tl-tags"><span>CGPA: Ongoing</span><span>2nd Year</span></div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-year">2022 – 2024</span>
+                <h4>Higher Secondary (Class XII)</h4>
+                <p class="tl-org">Senior Secondary School</p>
+                <p class="tl-desc">Completed 10+2 with Physics, Chemistry, and Mathematics (PCM).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-col fade-up">
+          <div class="rcol-head"><i class="fas fa-briefcase"></i><h3>Experience</h3></div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-dot pulse-dot"></div>
+              <div class="tl-body">
+                <span class="tl-year">2024 – Present</span>
+                <h4>Looking for Opportunities</h4>
+                <p class="tl-org">Open to Internships</p>
+                <p class="tl-desc">Actively seeking internship roles in Data Science, Machine Learning, or Backend Development to gain hands-on industry experience.</p>
+                <div class="tl-tags"><span>🟢 Available</span><span>Remote / Hybrid</span></div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-year">Self-Learning</span>
+                <h4>Online Courses &amp; Certifications</h4>
+                <p class="tl-org">Coursera / Udemy / NPTEL</p>
+                <p class="tl-desc">Completed courses on Python for Data Science, Machine Learning Fundamentals, and Data Structures &amp; Algorithms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-dl fade-up">
+        <a href="#" class="btn btn-primary btn-lg">
+          <i class="fas fa-download"></i> Download Full Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="sec-head fade-up">
+        <span class="sec-tag">My Work</span>
+        <h2 class="sec-title">Projects</h2>
+        <p class="sec-sub">Things I've built with passion &amp; curiosity</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="proj-links">
+              <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Data Analysis Project</h3>
+          <p>Comprehensive exploratory data analysis on a real-world dataset. Uncovered hidden patterns, trends, and insights through statistical analysis and rich visualizations.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Jupyter</span>
+          </div>
+        </div>
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-icon"><i class="fas fa-code-branch"></i></div>
+            <div class="proj-links">
+              <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>DSA Problem Solver</h3>
+          <p>A curated collection of 100+ DSA problems solved in Java with detailed comments and time/space complexity analysis. Covers arrays, trees, graphs, DP, and more.</p>
+          <div class="proj-stack">
+            <span>Java</span><span>Data Structures</span><span>Algorithms</span><span>LeetCode</span>
+          </div>
+        </div>
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="proj-links">
+              <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>A fully responsive personal portfolio built from scratch with modern design principles, smooth animations, dark blue theme, and clean code — the very site you're viewing!</p>
+          <div class="proj-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+          </div>
+        </div>
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-icon"><i class="fas fa-brain"></i></div>
+            <div class="proj-links">
+              <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>ML Classification Model</h3>
+          <p>Built and trained a machine learning classification model to predict outcomes on a structured dataset. Compared multiple algorithms and visualized performance metrics.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Scikit-learn</span><span>NumPy</span><span>Pandas</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="sec-head fade-up">
+        <span class="sec-tag">Get in Touch</span>
+        <h2 class="sec-title">Contact <span class="highlight">Me</span></h2>
+        <p class="sec-sub">Let's connect — I'm always open to new opportunities</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left fade-up">
+          <h3>Let's Build Something Together</h3>
+          <p>Whether it's an internship, a project collaboration, or just a tech chat — my inbox is always open. Drop a message and I'll get back to you!</p>
+          <div class="c-items">
+            <div class="c-item">
+              <div class="c-icon"><i class="fas fa-envelope"></i></div>
+              <div><span class="c-lbl">Email</span><span class="c-val">vichitrasolanki5105@gmail.com</span></div>
+            </div>
+            <div class="c-item">
+              <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="c-lbl">Location</span><span class="c-val">India</span></div>
+            </div>
+            <div class="c-item">
+              <div class="c-icon"><i class="fas fa-circle" style="color:#4ade80;font-size:.6rem;"></i></div>
+              <div><span class="c-lbl">Status</span><span class="c-val" style="color:#4ade80;">Available for Internships</span></div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="soc-btn soc-gh" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+            <a href="#" class="soc-btn soc-li" target="_blank"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+            <a href="#" class="soc-btn soc-tw" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+          </div>
+        </div>
+
+        <div class="contact-right fade-up">
+          <form class="c-form" id="contactForm" novalidate>
+            <div class="fg">
+              <label>Full Name</label>
+              <div class="inp-wrap"><i class="fas fa-user"></i>
+                <input type="text" name="name" placeholder="Your Name" required/>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Email Address</label>
+              <div class="inp-wrap"><i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="your@email.com" required/>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Subject</label>
+              <div class="inp-wrap"><i class="fas fa-tag"></i>
+                <input type="text" name="subject" placeholder="What's this about?"/>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Message</label>
+              <div class="inp-wrap ta-wrap"><i class="fas fa-comment-dots"></i>
+                <textarea name="message" rows="5" placeholder="Your message here..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w100">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-ok" id="formSuccess">
+              <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">&lt; Vichitra Solanki /&gt;</span>
+        <p>Designed &amp; Built with <span>❤️</span> by Vichitra Solanki</p>
+        <p class="footer-copy">© 2024 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back To Top -->
+  <button class="back-top" id="backTop" aria-label="Back to Top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
